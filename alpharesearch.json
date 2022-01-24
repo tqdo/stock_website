@@ -1,0 +1,69 @@
+{
+    "functions": [
+        {
+            "description": "Obtain equity financial data.",
+            "id": "AR_EQUITY",
+            "name": "AR_EQUITY",
+            "parameters": [
+                {
+                    "description": "Symbol.",
+                    "name": "symbol",
+                    "type": "string"
+                },
+                {
+                    "description": "Metric.",
+                    "name": "metric",
+                    "type": "string"
+                },
+                {
+                    "description": "Period (optional).",
+                    "name": "period",
+                    "optional": true,
+                    "type": "string"
+                },
+                {
+                    "description": "Limit (optional, default to 1).",
+                    "name": "limit",
+                    "optional": true,
+                    "type": "number"
+                }
+            ],
+            "result": {
+                "dimensionality": "matrix",
+                "type": "string"
+            }
+        },
+        {
+            "description": "Obtain price candles.",
+            "id": "AR_CANDLES",
+            "name": "AR_CANDLES",
+            "parameters": [
+                {
+                    "description": "Symbol.",
+                    "name": "symbol",
+                    "type": "string"
+                },
+                {
+                    "description": "Resolution (D, W or M).",
+                    "name": "resolution",
+                    "type": "string"
+                },
+                {
+                    "description": "From.",
+                    "name": "from",
+                    "type": "string"
+                },
+                {
+                    "description": "To (optional).",
+                    "name": "to",
+                    "optional": true,
+                    "type": "string"
+                }
+            ],
+            "result": {
+                "dimensionality": "matrix",
+                "type": "string"
+            }
+        }
+    ]
+}
