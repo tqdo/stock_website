@@ -286,6 +286,21 @@
             }
         },
         {
+            "id": "FS_LATEST",
+            "name": "FS_Latest",
+            "parameters": [
+                {
+                    "description": "Symbol.",
+                    "name": "symbol",
+                    "type": "string"
+                }
+            ],
+            "result": {
+                "dimensionality": "matrix",
+                "type": "string"
+            }
+        },
+        {
             "description": "Stream Real-time price for Stocks, Cryptos, Forex, ETFs and Mutual Funds.",
             "id": "FS_STREAMING",
             "name": "FS_Streaming",
