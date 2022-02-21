@@ -413,7 +413,7 @@
                     "dimensionality": "matrix",
                     "name": "indicator_fields",
                     "optional": true,
-                    "type": "string"
+                    "type": "any"
                 }
             ],
             "result": {
