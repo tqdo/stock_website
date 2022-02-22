@@ -449,6 +449,12 @@
                     "description": "Frequency (annual or quarterly).",
                     "name": "freq",
                     "type": "string"
+                },
+                {
+                    "description": "Limit.",
+                    "name": "limit",
+                    "optional": true,
+                    "type": "number"
                 }
             ],
             "result": {
