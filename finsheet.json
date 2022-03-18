@@ -6,9 +6,8 @@
             "parameters": [
                 {
                     "description": "Stock Symbol.",
-                    "dimensionality": "matrix",
                     "name": "symbol",
-                    "type": "any"
+                    "type": "string"
                 },
                 {
                     "description": "Metric.",
