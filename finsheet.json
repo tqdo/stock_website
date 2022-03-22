@@ -3,6 +3,7 @@
         {
             "id": "FS_EQUITYMETRICS",
             "name": "FS_EquityMetrics",
+            "helpUrl": "https://finsheet.io/docs/fs_equitymetrics",
             "parameters": [
                 {
                     "description": "Stock Symbol.",
@@ -35,6 +36,7 @@
         {
             "id": "FS_EQUITYFULLFINANCIALS",
             "name": "FS_EquityFullFinancials",
+            "helpUrl": "https://finsheet.io/docs/fs_equityfullfinancials",
             "parameters": [
                 {
                     "description": "Stock Symbol.",
@@ -67,6 +69,7 @@
         {
             "id": "FS_EQUITYCANDLES",
             "name": "FS_EquityCandles",
+            "helpUrl": "https://finsheet.io/docs/fs_equitycandles",
             "parameters": [
                 {
                     "description": "Stock Symbol.",
@@ -99,6 +102,7 @@
         {
             "id": "FS_FOREXCANDLES",
             "name": "FS_ForexCandles",
+            "helpUrl": "https://finsheet.io/docs/fs_forexcandles",
             "parameters": [
                 {
                     "description": "Forex Symbol.",
@@ -131,6 +135,7 @@
         {
             "id": "FS_CRYPTOCANDLES",
             "name": "FS_CryptoCandles",
+            "helpUrl": "https://finsheet.io/docs/fs_cryptocandles",
             "parameters": [
                 {
                     "description": "Crypto Symbol.",
@@ -163,6 +168,7 @@
         {
             "id": "FS_ETFCANDLES",
             "name": "FS_EtfCandles",
+            "helpUrl": "https://finsheet.io/docs/fs_etfcandles",
             "parameters": [
                 {
                     "description": "Etf Symbol.",
@@ -195,6 +201,7 @@
         {
             "id": "FS_MUTUALFUNDCANDLES",
             "name": "FS_MutualFundCandles",
+            "helpUrl": "https://finsheet.io/docs/fs_mutualfundcandles",
             "parameters": [
                 {
                     "description": "Mutual Fund Symbol.",
@@ -227,6 +234,7 @@
         {
             "id": "FS_FOREXALLRATES",
             "name": "FS_ForexAllRates",
+            "helpUrl": "https://finsheet.io/docs/fs_forexallrates",
             "parameters": [
                 {
                     "description": "base_currency.",
@@ -243,6 +251,7 @@
         {
             "id": "FS_CRYPTOPROFILE",
             "name": "FS_CryptoProfile",
+            "helpUrl": "https://finsheet.io/docs/fs_cryptoprofile",
             "parameters": [
                 {
                     "description": "Crypto symbol such as BTC or ETH.",
@@ -258,6 +267,7 @@
         {
             "id": "FS_ETFPROFILE",
             "name": "FS_EtfProfile",
+            "helpUrl": "https://finsheet.io/docs/fs_etfprofile",
             "parameters": [
                 {
                     "description": "ETF symbol.",
@@ -273,6 +283,7 @@
         {
             "id": "FS_MUTUALFUNDPROFILE",
             "name": "FS_MutualFundProfile",
+            "helpUrl": "https://finsheet.io/docs/fs_mutualfundprofile",
             "parameters": [
                 {
                     "description": "Mutual Fund symbol.",
@@ -288,6 +299,7 @@
         {
             "id": "FS_LATEST",
             "name": "FS_Latest",
+            "helpUrl": "https://finsheet.io/docs/fs_latest",
             "parameters": [
                 {
                     "description": "Symbol.",
@@ -304,6 +316,7 @@
             "description": "Stream Real-time price for Stocks, Cryptos, Forex, ETFs and Mutual Funds.",
             "id": "FS_STREAMING",
             "name": "FS_Streaming",
+            "helpUrl": "https://finsheet.io/docs/fs_streaming",
             "options": {
                 "stream": true
             },
@@ -321,6 +334,7 @@
         {
             "id": "FS_PATTERNRECOGNITION",
             "name": "FS_PatternRecognition",
+            "helpUrl": "https://finsheet.io/docs/fs_patternrecognition",
             "parameters": [
                 {
                     "description": "Symbol.",
@@ -341,6 +355,7 @@
         {
             "id": "FS_SUPPORTRESISTANCE",
             "name": "FS_SupportResistance",
+            "helpUrl": "https://finsheet.io/docs/fs_supportresistance",
             "parameters": [
                 {
                     "description": "Symbol.",
@@ -361,6 +376,7 @@
         {
             "id": "FS_AGGREGATEINDICATORS",
             "name": "FS_AggregateIndicators",
+            "helpUrl": "https://finsheet.io/docs/fs_aggregateindicators",
             "parameters": [
                 {
                     "description": "Symbol.",
@@ -381,6 +397,7 @@
         {
             "id": "FS_TECHNICALINDICATORS",
             "name": "FS_TechnicalIndicators",
+            "helpUrl": "https://finsheet.io/docs/fs_technicalindicators",
             "parameters": [
                 {
                     "description": "Symbol.",
@@ -424,6 +441,7 @@
         {
             "id": "FS_ESG",
             "name": "FS_ESG",
+            "helpUrl": "https://finsheet.io/docs/fs_esg",
             "parameters": [
                 {
                     "description": "Stock symbol.",
@@ -439,6 +457,7 @@
         {
             "id": "FS_EARNINGSQUALITY",
             "name": "FS_EarningsQuality",
+            "helpUrl": "https://finsheet.io/docs/fs_earningsquality",
             "parameters": [
                 {
                     "description": "Stock symbol.",
@@ -465,6 +484,7 @@
         {
             "id": "FS_API",
             "name": "FS_Api",
+            "helpUrl": "https://finsheet.io/console",
             "parameters": [
                 {
                     "description": "Provider name.",
