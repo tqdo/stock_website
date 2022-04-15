@@ -508,6 +508,50 @@
                 "dimensionality": "matrix",
                 "type": "string"
             }
-        }
+        },
+        {
+            "id": "FS_ETFHOLDINGS",
+            "name": "FS_EtfHoldings",
+            "helpUrl": "https://finsheet.io/docs/fs_etfholdings",
+            "parameters": [
+                {
+                    "description": "ETF symbol.",
+                    "name": "symbol",
+                    "type": "string"
+                },
+                {
+                    "description": "Skip first n results.",
+                    "name": "skip",
+                    "optional": true,
+                    "type": "number"
+                }
+            ],
+            "result": {
+                "dimensionality": "matrix",
+                "type": "string"
+            }
+        },
+        {
+            "id": "FS_MUTUALFUNDHOLDINGS",
+            "name": "FS_MutualFundHoldings",
+            "helpUrl": "https://finsheet.io/docs/fs_mutualfundholdings",
+            "parameters": [
+                {
+                    "description": "Mutual Fund symbol.",
+                    "name": "symbol",
+                    "type": "string"
+                },
+                {
+                    "description": "Skip first n results.",
+                    "name": "skip",
+                    "optional": true,
+                    "type": "number"
+                }
+            ],
+            "result": {
+                "dimensionality": "matrix",
+                "type": "string"
+            }
+        },
     ]
 }
