@@ -552,6 +552,6 @@
                 "dimensionality": "matrix",
                 "type": "string"
             }
-        },
+        }
     ]
 }
