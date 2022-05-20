@@ -7,6 +7,7 @@
             "parameters": [
                 {
                     "description": "Symbol.",
+                    "dimensionality": "matrix",
                     "name": "symbol",
                     "type": "string"
                 },
