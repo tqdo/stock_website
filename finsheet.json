@@ -23,6 +23,7 @@
             "parameters": [
                 {
                     "description": "Stock Symbol.",
+                    "dimensionality": "matrix",
                     "name": "symbol",
                     "type": "string"
                 },
@@ -319,6 +320,7 @@
             "parameters": [
                 {
                     "description": "Symbol.",
+                    "dimensionality": "matrix",
                     "name": "symbol",
                     "type": "string"
                 }
