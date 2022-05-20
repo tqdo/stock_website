@@ -9,23 +9,6 @@
                     "dimensionality": "matrix",
                     "name": "symbol",
                     "type": "string"
-                },
-                {
-                    "description": "Metric.",
-                    "name": "metric",
-                    "type": "string"
-                },
-                {
-                    "description": "Period (optional).",
-                    "name": "period",
-                    "optional": true,
-                    "type": "string"
-                },
-                {
-                    "description": "Limit (optional, default to 1).",
-                    "name": "limit",
-                    "optional": true,
-                    "type": "number"
                 }
             ],
             "result": {
