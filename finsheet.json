@@ -570,6 +570,90 @@
                 "dimensionality": "matrix",
                 "type": "string"
             }
+        },
+        {
+            "id": "FS_BONDCANDLES",
+            "name": "FS_BondCandles",
+            "helpUrl": "https://finsheet.io/docs/fs_bondcandles",
+            "parameters": [
+                {
+                    "description": "ISIN of bond.",
+                    "name": "isin",
+                    "type": "string"
+                },
+                {
+                    "description": "From.",
+                    "name": "from",
+                    "optional": true,
+                    "type": "string"
+                },
+                {
+                    "description": "To (optional).",
+                    "name": "to",
+                    "optional": true,
+                    "type": "string"
+                }
+            ],
+            "result": {
+                "dimensionality": "matrix",
+                "type": "string"
+            }
+        },
+        {
+            "id": "FS_BONDTICK",
+            "name": "FS_BondTick",
+            "helpUrl": "https://finsheet.io/docs/fs_bondtick",
+            "parameters": [
+                {
+                    "description": "ISIN of bond.",
+                    "name": "isin",
+                    "type": "string"
+                },
+                {
+                    "description": "Date.",
+                    "name": "date",
+                    "optional": true,
+                    "type": "string"
+                },
+                {
+                    "description": "Limit (optional).",
+                    "name": "limit",
+                    "optional": true,
+                    "type": "string"
+                }
+            ],
+            "result": {
+                "dimensionality": "matrix",
+                "type": "string"
+            }
+        },
+        {
+            "id": "FS_FUTURESCANDLES",
+            "name": "FS_FuturesCandles",
+            "helpUrl": "https://finsheet.io/docs/fs_futurescandles",
+            "parameters": [
+                {
+                    "description": "Futures Contract symbol.",
+                    "name": "symbol",
+                    "type": "string"
+                },
+                {
+                    "description": "From.",
+                    "name": "from",
+                    "optional": true,
+                    "type": "string"
+                },
+                {
+                    "description": "To (optional).",
+                    "name": "to",
+                    "optional": true,
+                    "type": "string"
+                }
+            ],
+            "result": {
+                "dimensionality": "matrix",
+                "type": "string"
+            }
         }
     ]
 }
