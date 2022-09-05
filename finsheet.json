@@ -612,7 +612,6 @@
                 {
                     "description": "Date.",
                     "name": "date",
-                    "optional": true,
                     "type": "string"
                 },
                 {
