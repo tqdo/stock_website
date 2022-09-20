@@ -17,6 +17,23 @@
             }
         },
         {
+            "id": "FS_OPTIONEXPIRATIONDATES",
+            "name": "FS_OptionExpirationDates",
+            "helpUrl": "https://finsheet.io/docs/fs_optionexpirationdates",
+            "parameters": [
+                {
+                    "description": "Symbol.",
+                    "dimensionality": "matrix",
+                    "name": "symbol",
+                    "type": "string"
+                }
+            ],
+            "result": {
+                "dimensionality": "matrix",
+                "type": "string"
+            }
+        },
+        {
             "id": "FS_EQUITYMETRICS",
             "name": "FS_EquityMetrics",
             "helpUrl": "https://finsheet.io/docs/fs_equitymetrics",
