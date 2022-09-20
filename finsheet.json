@@ -19,13 +19,43 @@
         {
             "id": "FS_OPTIONEXPIRATIONDATES",
             "name": "FS_OptionExpirationDates",
-            "helpUrl": "https://finsheet.io/docs/fs_optionexpirationdates",
             "parameters": [
                 {
-                    "description": "Symbol.",
-                    "dimensionality": "matrix",
+                    "description": "Stock symbol.",
                     "name": "symbol",
                     "type": "string"
+                }
+            ],
+            "result": {
+                "dimensionality": "matrix",
+                "type": "string"
+            }
+        },
+        {
+            "id": "FS_OPTIONCHAIN",
+            "name": "FS_OptionChain",
+            "parameters": [
+                {
+                    "description": "Stock symbol.",
+                    "name": "symbol",
+                    "type": "string"
+                },
+                {
+                    "description": "Type.",
+                    "name": "type",
+                    "type": "string"
+                },
+                {
+                    "description": "Expiration date.",
+                    "name": "expirationDate",
+                    "type": "string"
+                },
+                {
+                    "description": "Options (optional).",
+                    "dimensionality": "matrix",
+                    "name": "options",
+                    "optional": true,
+                    "type": "any"
                 }
             ],
             "result": {
