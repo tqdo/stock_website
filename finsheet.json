@@ -17,6 +17,37 @@
             }
         },
         {
+            "id": "FS_EQUITYTICK",
+            "name": "FS_EquityTick",
+            "parameters": [
+                {
+                    "description": "Stock symbol.",
+                    "name": "symbol",
+                    "type": "string"
+                },
+                {
+                    "description": "date.",
+                    "name": "date",
+                    "type": "string"
+                },
+                {
+                    "description": "limit.",
+                    "name": "limit",
+                    "type": "string"
+                },
+                {
+                    "description": "skip (optional).",
+                    "name": "skip",
+                    "optional": true,
+                    "type": "string"
+                }
+            ],
+            "result": {
+                "dimensionality": "matrix",
+                "type": "string"
+            }
+        },
+        {
             "id": "FS_SHORTINTEREST",
             "name": "FS_ShortInterest",
             "parameters": [
