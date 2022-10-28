@@ -17,6 +17,40 @@
             }
         },
         {
+            "id": "FS_EARNINGSCALENDAR",
+            "name": "FS_EarningsCalendar",
+            "parameters": [
+                {
+                    "description": "from date (optional).",
+                    "name": "from",
+                    "optional": true,
+                    "type": "string"
+                },
+                {
+                    "description": "to date (optional).",
+                    "name": "to",
+                    "optional": true,
+                    "type": "string"
+                },
+                {
+                    "description": "stock symbol (optional).",
+                    "name": "symbol",
+                    "optional": true,
+                    "type": "string"
+                },
+                {
+                    "description": "specify \"true\" to include international markets (optional).",
+                    "name": "international",
+                    "optional": true,
+                    "type": "string"
+                }
+            ],
+            "result": {
+                "dimensionality": "matrix",
+                "type": "string"
+            }
+        },
+        {
             "id": "FS_EQUITYTICK",
             "name": "FS_EquityTick",
             "parameters": [
