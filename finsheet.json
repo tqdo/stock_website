@@ -185,6 +185,12 @@
                     "name": "limit",
                     "optional": true,
                     "type": "number"
+                },
+                {
+                    "description": "Options (optional).",
+                    "name": "options",
+                    "optional": true,
+                    "type": "string"
                 }
             ],
             "result": {
