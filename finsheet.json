@@ -89,6 +89,12 @@
                     "name": "skip",
                     "optional": true,
                     "type": "string"
+                },
+                {
+                    "description": "options (optional).",
+                    "name": "options",
+                    "optional": true,
+                    "type": "string"
                 }
             ],
             "result": {
@@ -161,9 +167,6 @@
         {
             "id": "FS_EQUITYMETRICS",
             "name": "FS_EquityMetrics",
-            "options": {
-                "requiresAddress": true
-            },
             "helpUrl": "https://finsheet.io/docs/fs_equitymetrics",
             "parameters": [
                 {
@@ -803,6 +806,12 @@
                     "name": "to",
                     "optional": true,
                     "type": "string"
+                },
+                {
+                    "description": "options (optional).",
+                    "name": "options",
+                    "optional": true,
+                    "type": "string"
                 }
             ],
             "result": {
@@ -828,6 +837,12 @@
                 {
                     "description": "Limit (optional).",
                     "name": "limit",
+                    "optional": true,
+                    "type": "string"
+                },
+                {
+                    "description": "options (optional).",
+                    "name": "options",
                     "optional": true,
                     "type": "string"
                 }
