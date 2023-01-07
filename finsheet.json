@@ -167,6 +167,9 @@
         {
             "id": "FS_EQUITYMETRICS",
             "name": "FS_EquityMetrics",
+            "options": {
+                "requiresAddress": true
+            },
             "helpUrl": "https://finsheet.io/docs/fs_equitymetrics",
             "parameters": [
                 {
