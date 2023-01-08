@@ -19,6 +19,9 @@
         {
             "id": "FS_INSTITUTIONALPORTFOLIOS",
             "name": "FS_InstitutionalPortfolios",
+            "options": {
+                "requiresAddress": true
+            },
             "parameters": [
                 {
                     "description": "Guru/institution name.",
@@ -34,6 +37,9 @@
         {
             "id": "FS_EARNINGSCALENDAR",
             "name": "FS_EarningsCalendar",
+            "options": {
+                "requiresAddress": true
+            },
             "parameters": [
                 {
                     "description": "from date (optional).",
@@ -68,6 +74,9 @@
         {
             "id": "FS_EQUITYTICK",
             "name": "FS_EquityTick",
+            "options": {
+                "requiresAddress": true
+            },
             "parameters": [
                 {
                     "description": "Stock symbol.",
@@ -105,6 +114,9 @@
         {
             "id": "FS_SHORTINTEREST",
             "name": "FS_ShortInterest",
+            "options": {
+                "requiresAddress": true
+            },
             "parameters": [
                 {
                     "description": "Stock symbol.",
@@ -120,6 +132,9 @@
         {
             "id": "FS_OPTIONEXPIRATIONDATES",
             "name": "FS_OptionExpirationDates",
+            "options": {
+                "requiresAddress": true
+            },
             "parameters": [
                 {
                     "description": "Stock symbol.",
@@ -135,6 +150,9 @@
         {
             "id": "FS_OPTIONCHAIN",
             "name": "FS_OptionChain",
+            "options": {
+                "requiresAddress": true
+            },
             "parameters": [
                 {
                     "description": "Stock symbol.",
@@ -210,6 +228,9 @@
         {
             "id": "FS_EQUITYFULLFINANCIALS",
             "name": "FS_EquityFullFinancials",
+            "options": {
+                "requiresAddress": true
+            },
             "helpUrl": "https://finsheet.io/docs/fs_equityfullfinancials",
             "parameters": [
                 {
@@ -243,6 +264,9 @@
         {
             "id": "FS_EQUITYCANDLES",
             "name": "FS_EquityCandles",
+            "options": {
+                "requiresAddress": true
+            },
             "helpUrl": "https://finsheet.io/docs/fs_equitycandles",
             "parameters": [
                 {
@@ -288,6 +312,9 @@
         {
             "id": "FS_FOREXCANDLES",
             "name": "FS_ForexCandles",
+            "options": {
+                "requiresAddress": true
+            },
             "helpUrl": "https://finsheet.io/docs/fs_forexcandles",
             "parameters": [
                 {
@@ -333,6 +360,9 @@
         {
             "id": "FS_CRYPTOCANDLES",
             "name": "FS_CryptoCandles",
+            "options": {
+                "requiresAddress": true
+            },
             "helpUrl": "https://finsheet.io/docs/fs_cryptocandles",
             "parameters": [
                 {
@@ -378,6 +408,9 @@
         {
             "id": "FS_ETFCANDLES",
             "name": "FS_EtfCandles",
+            "options": {
+                "requiresAddress": true
+            },
             "helpUrl": "https://finsheet.io/docs/fs_etfcandles",
             "parameters": [
                 {
@@ -423,6 +456,9 @@
         {
             "id": "FS_MUTUALFUNDCANDLES",
             "name": "FS_MutualFundCandles",
+            "options": {
+                "requiresAddress": true
+            },
             "helpUrl": "https://finsheet.io/docs/fs_mutualfundcandles",
             "parameters": [
                 {
@@ -468,6 +504,9 @@
         {
             "id": "FS_FOREXALLRATES",
             "name": "FS_ForexAllRates",
+            "options": {
+                "requiresAddress": true
+            },
             "helpUrl": "https://finsheet.io/docs/fs_forexallrates",
             "parameters": [
                 {
@@ -485,6 +524,9 @@
         {
             "id": "FS_CRYPTOPROFILE",
             "name": "FS_CryptoProfile",
+            "options": {
+                "requiresAddress": true
+            },
             "helpUrl": "https://finsheet.io/docs/fs_cryptoprofile",
             "parameters": [
                 {
@@ -501,6 +543,9 @@
         {
             "id": "FS_ETFPROFILE",
             "name": "FS_EtfProfile",
+            "options": {
+                "requiresAddress": true
+            },
             "helpUrl": "https://finsheet.io/docs/fs_etfprofile",
             "parameters": [
                 {
@@ -517,6 +562,9 @@
         {
             "id": "FS_MUTUALFUNDPROFILE",
             "name": "FS_MutualFundProfile",
+            "options": {
+                "requiresAddress": true
+            },
             "helpUrl": "https://finsheet.io/docs/fs_mutualfundprofile",
             "parameters": [
                 {
@@ -533,6 +581,9 @@
         {
             "id": "FS_LATEST",
             "name": "FS_Latest",
+            "options": {
+                "requiresAddress": true
+            },
             "helpUrl": "https://finsheet.io/docs/fs_latest",
             "parameters": [
                 {
@@ -551,6 +602,9 @@
             "description": "Stream Real-time price for Stocks, Cryptos, Forex, ETFs and Mutual Funds.",
             "id": "FS_STREAMING",
             "name": "FS_Streaming",
+            "options": {
+                "requiresAddress": true
+            },
             "helpUrl": "https://finsheet.io/docs/fs_streaming",
             "options": {
                 "stream": true
@@ -569,6 +623,9 @@
         {
             "id": "FS_PATTERNRECOGNITION",
             "name": "FS_PatternRecognition",
+            "options": {
+                "requiresAddress": true
+            },
             "helpUrl": "https://finsheet.io/docs/fs_patternrecognition",
             "parameters": [
                 {
@@ -590,6 +647,9 @@
         {
             "id": "FS_SUPPORTRESISTANCE",
             "name": "FS_SupportResistance",
+            "options": {
+                "requiresAddress": true
+            },
             "helpUrl": "https://finsheet.io/docs/fs_supportresistance",
             "parameters": [
                 {
@@ -611,6 +671,9 @@
         {
             "id": "FS_AGGREGATEINDICATORS",
             "name": "FS_AggregateIndicators",
+            "options": {
+                "requiresAddress": true
+            },
             "helpUrl": "https://finsheet.io/docs/fs_aggregateindicators",
             "parameters": [
                 {
@@ -632,6 +695,9 @@
         {
             "id": "FS_TECHNICALINDICATORS",
             "name": "FS_TechnicalIndicators",
+            "options": {
+                "requiresAddress": true
+            },
             "helpUrl": "https://finsheet.io/docs/fs_technicalindicators",
             "parameters": [
                 {
@@ -676,6 +742,9 @@
         {
             "id": "FS_ESG",
             "name": "FS_ESG",
+            "options": {
+                "requiresAddress": true
+            },
             "helpUrl": "https://finsheet.io/docs/fs_esg",
             "parameters": [
                 {
@@ -692,6 +761,9 @@
         {
             "id": "FS_EARNINGSQUALITY",
             "name": "FS_EarningsQuality",
+            "options": {
+                "requiresAddress": true
+            },
             "helpUrl": "https://finsheet.io/docs/fs_earningsquality",
             "parameters": [
                 {
@@ -719,6 +791,9 @@
         {
             "id": "FS_API",
             "name": "FS_Api",
+            "options": {
+                "requiresAddress": true
+            },
             "helpUrl": "https://finsheet.io/console",
             "parameters": [
                 {
@@ -747,6 +822,9 @@
         {
             "id": "FS_ETFHOLDINGS",
             "name": "FS_EtfHoldings",
+            "options": {
+                "requiresAddress": true
+            },
             "helpUrl": "https://finsheet.io/docs/fs_etfholdings",
             "parameters": [
                 {
@@ -769,6 +847,9 @@
         {
             "id": "FS_MUTUALFUNDHOLDINGS",
             "name": "FS_MutualFundHoldings",
+            "options": {
+                "requiresAddress": true
+            },
             "helpUrl": "https://finsheet.io/docs/fs_mutualfundholdings",
             "parameters": [
                 {
@@ -791,6 +872,9 @@
         {
             "id": "FS_BONDCANDLES",
             "name": "FS_BondCandles",
+            "options": {
+                "requiresAddress": true
+            },
             "helpUrl": "https://finsheet.io/docs/fs_bondcandles",
             "parameters": [
                 {
@@ -825,6 +909,9 @@
         {
             "id": "FS_BONDTICK",
             "name": "FS_BondTick",
+            "options": {
+                "requiresAddress": true
+            },
             "helpUrl": "https://finsheet.io/docs/fs_bondtick",
             "parameters": [
                 {
@@ -858,6 +945,9 @@
         {
             "id": "FS_FUTURESCANDLES",
             "name": "FS_FuturesCandles",
+            "options": {
+                "requiresAddress": true
+            },
             "helpUrl": "https://finsheet.io/docs/fs_futurescandles",
             "parameters": [
                 {
