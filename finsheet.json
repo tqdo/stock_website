@@ -17,6 +17,44 @@
             }
         },
         {
+            "id": "FS_DIVIDENDS",
+            "name": "FS_Dividends",
+            "options": {
+                "requiresAddress": true
+            },
+            "parameters": [
+                {
+                    "description": "Stock symbol.",
+                    "name": "symbol",
+                    "type": "string"
+                },
+                {
+                    "description": "from.",
+                    "name": "from",
+                    "type": "string"
+                },
+                {
+                    "description": "to.",
+                    "name": "to",
+                    "type": "string"
+                },
+                {
+                    "description": "metrics (optional).",
+                    "name": "metrics",
+                    "type": "string"
+                },
+                {
+                    "description": "options (optional).",
+                    "name": "options",
+                    "type": "string"
+                }
+            ],
+            "result": {
+                "dimensionality": "matrix",
+                "type": "string"
+            }
+        },
+        {
             "id": "FS_INSTITUTIONALPORTFOLIOS",
             "name": "FS_InstitutionalPortfolios",
             "options": {
