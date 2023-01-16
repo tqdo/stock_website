@@ -41,11 +41,13 @@
                 {
                     "description": "metrics (optional).",
                     "name": "metrics",
+                    "optional": true,
                     "type": "string"
                 },
                 {
                     "description": "options (optional).",
                     "name": "options",
+                    "optional": true,
                     "type": "string"
                 }
             ],
